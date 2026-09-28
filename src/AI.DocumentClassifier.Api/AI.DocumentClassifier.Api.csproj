@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI.DocumentClassifier.Application\AI.DocumentClassifier.Application.csproj" />
+    <ProjectReference Include="..\AI.DocumentClassifier.Domain\AI.DocumentClassifier.Domain.csproj" />
+    <ProjectReference Include="..\AI.DocumentClassifier.Infrastructure\AI.DocumentClassifier.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup><PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" /></ItemGroup>
+</Project>

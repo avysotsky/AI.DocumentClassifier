@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7EAFA426-C405-4B11-AC60-F084703FB20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.DocumentClassifier.Domain", "src\AI.DocumentClassifier.Domain\AI.DocumentClassifier.Domain.csproj", "{7C32FA7B-902F-4ED2-A786-09185E4DED7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.DocumentClassifier.Application", "src\AI.DocumentClassifier.Application\AI.DocumentClassifier.Application.csproj", "{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.DocumentClassifier.Infrastructure", "src\AI.DocumentClassifier.Infrastructure\AI.DocumentClassifier.Infrastructure.csproj", "{BD89571D-DC26-4C03-AB4C-632854CA2C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.DocumentClassifier.Api", "src\AI.DocumentClassifier.Api\AI.DocumentClassifier.Api.csproj", "{8B99CCC9-3481-44C9-A786-378D28CC88B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B6C1D6B8-3069-4778-953D-9DCE5994EBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI.DocumentClassifier.UnitTests", "tests\AI.DocumentClassifier.UnitTests\AI.DocumentClassifier.UnitTests.csproj", "{89A4183A-04B5-49C0-9196-17E2AF3B4C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C32FA7B-902F-4ED2-A786-09185E4DED7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C32FA7B-902F-4ED2-A786-09185E4DED7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C32FA7B-902F-4ED2-A786-09185E4DED7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C32FA7B-902F-4ED2-A786-09185E4DED7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD89571D-DC26-4C03-AB4C-632854CA2C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD89571D-DC26-4C03-AB4C-632854CA2C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD89571D-DC26-4C03-AB4C-632854CA2C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD89571D-DC26-4C03-AB4C-632854CA2C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B99CCC9-3481-44C9-A786-378D28CC88B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B99CCC9-3481-44C9-A786-378D28CC88B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B99CCC9-3481-44C9-A786-378D28CC88B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B99CCC9-3481-44C9-A786-378D28CC88B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A4183A-04B5-49C0-9196-17E2AF3B4C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A4183A-04B5-49C0-9196-17E2AF3B4C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A4183A-04B5-49C0-9196-17E2AF3B4C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A4183A-04B5-49C0-9196-17E2AF3B4C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C32FA7B-902F-4ED2-A786-09185E4DED7E} = {7EAFA426-C405-4B11-AC60-F084703FB20C}
+		{78FFAFA3-A1C7-476A-AF9E-9C2FFFEC6D25} = {7EAFA426-C405-4B11-AC60-F084703FB20C}
+		{BD89571D-DC26-4C03-AB4C-632854CA2C21} = {7EAFA426-C405-4B11-AC60-F084703FB20C}
+		{8B99CCC9-3481-44C9-A786-378D28CC88B7} = {7EAFA426-C405-4B11-AC60-F084703FB20C}
+		{89A4183A-04B5-49C0-9196-17E2AF3B4C21} = {B6C1D6B8-3069-4778-953D-9DCE5994EBE1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+{
+  "Classifier": {
+    "MinimumScore": 2.0,
+    "MaxEvidenceItems": 5
+  }
+}
